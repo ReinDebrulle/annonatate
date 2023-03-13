@@ -1,0 +1,35 @@
+---
+canvas: "https://imagehub.mskgent.be/iiif/3/116/canvas/1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Christus",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-03-13T10:47:08.719Z",
+            "modified": "2023-03-13T10:47:09.870Z"
+        }
+    ],
+    "target": {
+        "source": "https://imagehub.mskgent.be/iiif/3/116/canvas/1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1248.9366455078125,1276.001953125,633.6463623046875,733.1092529296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://imagehub.mskgent.be/iiif/3/116/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "409e096b-082d-4238-a184-e45532ad5adc.json",
+    "motivation": "commenting"
+}
