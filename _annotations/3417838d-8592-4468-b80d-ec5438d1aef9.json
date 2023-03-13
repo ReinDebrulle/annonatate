@@ -1,0 +1,34 @@
+---
+canvas: "https://imagehub.mskgent.be/iiif/3/116/canvas/1"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Farizee\u00ebr",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-03-13T10:47:45.620Z",
+            "modified": "2023-03-13T10:47:48.375Z"
+        }
+    ],
+    "target": {
+        "source": "https://imagehub.mskgent.be/iiif/3/116/canvas/1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1721.447509765625,269.0388488769531 1720.0087890625,293.05572509765625 1667.8123779296875,631.03759765625 1695.7425537109375,965.1636962890625 2379.878173828125,955.1502685546875 2443.718505859375,645.7699584960938 2389.69970703125,370.7652893066406 2276.75146484375,144.86854553222656 1957.5494384765625,144.86854553222656 1731.6527099609375,252.90611267089844\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://imagehub.mskgent.be/iiif/3/116/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3417838d-8592-4468-b80d-ec5438d1aef9.json",
+    "motivation": "commenting"
+}
