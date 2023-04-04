@@ -1,9 +1,9 @@
----
-canvas: "https://imagehub.mskgent.be/iiif/3/116/canvas/1"
-order: 2
----
 {
-    "type": "Annotation",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "3417838d-8592-4468-b80d-ec5438d1aef9.json",
+    "type": "AnnotationPage",
+    "items": [
+        {
     "body": [
         {
             "type": "TextualBody",
@@ -28,7 +28,5 @@ order: 2
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3417838d-8592-4468-b80d-ec5438d1aef9.json",
     "motivation": "commenting"
 }
