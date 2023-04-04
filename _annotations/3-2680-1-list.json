@@ -1,9 +1,35 @@
----
-canvas_id: "https://imagehub.mskgent.be/iiif/3/2680/canvas/1"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
 {
 "@context": "http://iiif.io/api/presentation/3/context.json",
-"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"id": "https://raw.githubusercontent.com/ReinDebrulle/annonatate/main/_annotations/3-2680-1-list.json",
 "type": "AnnotationPage",
-"items": [{{ annotations | join: ","}}] }
+"items": [
+  {
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hond",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-04-04T12:06:12.821Z",
+            "modified": "2023-04-04T12:06:13.244Z"
+        }
+    ],
+    "target": {
+        "source": "https://imagehub.mskgent.be/iiif/3/2680/canvas/1",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"1488.658935546875\" cy=\"3150.713623046875\" rx=\"340.0140380859375\" ry=\"280.543701171875\"></ellipse></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://imagehub.mskgent.be/iiif/3/2680/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "81b877d9-0b04-4c18-8a9c-df22991e9bc1.json",
+    "motivation": "commenting"
+}] }
