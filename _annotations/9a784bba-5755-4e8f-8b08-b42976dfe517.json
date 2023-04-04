@@ -1,0 +1,35 @@
+---
+canvas: "https://imagehub.mskgent.be/iiif/3/2680/canvas/1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ru\u00efnes",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-04-04T12:05:51.788Z",
+            "modified": "2023-04-04T12:05:54.115Z"
+        }
+    ],
+    "target": {
+        "source": "https://imagehub.mskgent.be/iiif/3/2680/canvas/1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=669.1314697265625,1149.04931640625,875.3319091796875,352.2109375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://imagehub.mskgent.be/iiif/3/2680/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9a784bba-5755-4e8f-8b08-b42976dfe517.json",
+    "motivation": "commenting"
+}
