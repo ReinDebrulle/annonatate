@@ -1,0 +1,34 @@
+---
+canvas: "https://imagehub.vlaamsekunstcollectie.be/iiif/3/103/canvas/1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Writing a letter in the summer of 1914, 19 year old John Low from Turriff, Scotland would never have thought this and other of his letters would become historical documents, allowing him to speak more than 120 years after his birth",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-07-26T14:34:23.862Z"
+        }
+    ],
+    "target": {
+        "source": "https://imagehub.vlaamsekunstcollectie.be/iiif/3/103/canvas/1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=673.9400024414062,76.04065704345703,509.99603271484375,365.48693084716797"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://reindebrulle.github.io/annonatate/manifests/main/09.08.1914.json/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1a1398f2-1d83-404c-99d0-f086bddfab7c.json",
+    "motivation": "commenting"
+}
