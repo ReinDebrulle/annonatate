@@ -1,4 +1,9 @@
 images:
+- added: '2023-08-23 11:06:52.214328'
+  iiif: true
+  thumbnail: ''
+  title: ''
+  url: https://dam.museabrugge.be/iiif/3/513/manifest.json
 - iiif: false
   thumbnail: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
   title: ''
@@ -15,6 +20,7 @@ images:
   thumbnail: https://media.nga.gov/iiif/public/objects/1/0/6/3/8/2/106382-primary-0-nativeres.ptif/full/120,/0/default.jpg
   title: National Gallery of Art Collection Highlights
   url: https://media.nga.gov/public/manifests/nga_highlights.json
+manifests: []
 settings:
   tempuser: notenabled
   viewer: default
