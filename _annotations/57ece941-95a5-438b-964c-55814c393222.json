@@ -11,10 +11,10 @@ order: 1
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-08-28T16:28:53.639Z",
+            "modified": "2023-08-28T16:30:23.967Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<img src=https://dam.museabrugge.be/iiif/2/public%2F513.tif/full/400,/0/default.jpg width=\"500\" height=\"600\">"
+            "value": "<img src=https://dam.museabrugge.be/iiif/2/public%2F513.tif/full/400,/0/default.jpg >"
         }
     ],
     "id": "57ece941-95a5-438b-964c-55814c393222.json",
