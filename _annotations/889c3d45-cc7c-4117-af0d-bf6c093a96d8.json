@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Hey, ik ben Muis, ik ben vandaag naar hier gekomen omdat ik had gehoord dat er in het hospitaal enorm veel lekker eten te vinden is. Ik ben maar met een draagstoel meegeglipt van mijn huis bij Sint Anna, dat is wel heel ver van hier... Ik ben benieuwd hoe ik straks terug thuis geraak.\n<img scr=https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F160.tif/full/full/0/default.jpg>",
-            "purpose": "commenting",
+            "created": "2023-08-29T13:16:14.644Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-29T13:16:14.644Z",
-            "modified": "2023-08-29T13:17:30.668Z"
+            "modified": "2023-08-29T13:20:35.521Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Hey, ik ben Muis, ik ben vandaag naar hier gekomen omdat ik had gehoord dat er in het hospitaal enorm veel lekker eten te vinden is. Ik ben maar met een draagstoel meegeglipt van mijn huis bij Sint Anna, dat is wel heel ver van hier... Ik ben benieuwd hoe ik straks terug thuis geraak.\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F160.tif/full/full/0/default.jpg\">"
         }
     ],
+    "id": "889c3d45-cc7c-4117-af0d-bf6c093a96d8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=9035.34765625,4633.5107421875,2019.44140625,2020.64697265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=9035.34765625,4633.5107421875,2019.44140625,2020.64697265625"
+        },
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "889c3d45-cc7c-4117-af0d-bf6c093a96d8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
