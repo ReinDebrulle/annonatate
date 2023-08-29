@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>Een hele mand vol brood! En wat zou er in die potten zitten? Het ruikt zo lekker!\nIk ga wat dichterbij proberen te komen.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"200\">",
-            "purpose": "commenting",
+            "created": "2023-08-29T13:47:07.409Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-29T13:47:07.409Z",
-            "modified": "2023-08-29T13:48:35.554Z"
+            "modified": "2023-08-29T13:48:35.554Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>Een hele mand vol brood! En wat zou er in die potten zitten? Het ruikt zo lekker!\nIk ga wat dichterbij proberen te komen.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"200\">"
         }
     ],
+    "id": "c64ad0a5-8b5e-409e-a082-02c9b5e5315b.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=6596.6376953125,4991.0869140625,2084.86328125,1434.7802734375"
+            "value": "xywh=7314.955078125,4991.0869140625,1366.5458984375,873.15234375"
         },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c64ad0a5-8b5e-409e-a082-02c9b5e5315b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
