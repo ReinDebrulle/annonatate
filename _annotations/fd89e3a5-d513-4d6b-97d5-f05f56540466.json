@@ -11,10 +11,10 @@ order: 5
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-08-29T14:25:08.105Z",
+            "modified": "2023-08-29T14:25:47.047Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Oh nee, die had ik helemaal niet gezien!<small><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">\n<small>Ik heb gehoord dat hier zoveel lekker eten is.<small>\n<small>Ja, maar dat is boven op zolder. Ik zal het tonen, maar pas op voor Moeder Overste<small>\n<small>Moeder wie?<small>"
+            "value": "<small>Oh nee, die had ik helemaal niet gezien!<small><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">\n<small>Ja, maar dat is boven op zolder. Ik zal het tonen, maar pas op voor Moeder Overste<small>\n<small>Moeder wie?<small>"
         },
         {
             "type": "TextualBody",
@@ -36,6 +36,17 @@ order: 5
             },
             "created": "2023-08-29T14:25:17.670Z",
             "modified": "2023-08-29T14:25:30.484Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "<small>Ja, maar dat is boven op zolder. Ik zal het tonen, maar pas op voor Moeder Overste<small>\nsrc=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
+            "purpose": "replying",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-08-29T14:25:54.094Z",
+            "modified": "2023-08-29T14:26:04.230Z"
         }
     ],
     "id": "fd89e3a5-d513-4d6b-97d5-f05f56540466.json",
