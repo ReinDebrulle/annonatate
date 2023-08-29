@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>Pssst, pas op!! De kat zit op de loer.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"200\">",
-            "purpose": "commenting",
+            "created": "2023-08-29T13:49:12.262Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-29T13:49:12.262Z",
-            "modified": "2023-08-29T13:52:09.599Z"
+            "modified": "2023-08-29T13:52:09.599Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>Pssst, pas op!! De kat zit op de loer.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"200\">"
         }
     ],
+    "id": "0a20819d-bf05-4047-abe4-74941439b359.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=5406.99169921875,5850.94775390625,1320.05029296875,823.607421875"
+            "value": "xywh=5608.1494140625,5963.85791015625,591.0732421875,650.92626953125"
         },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0a20819d-bf05-4047-abe4-74941439b359.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
