@@ -7,14 +7,14 @@ order: 3
     "body": [
         {
             "type": "TextualBody",
-            "value": "<small>Een hele mand vol brood! En wat zou er in die potten zitten? Het ruikt zo lekker!\nIk ga wat dichterbij proberen te komen.<small>",
+            "value": "<small>Een hele mand vol brood! En wat zou er in die potten zitten? Het ruikt zo lekker!\nIk ga wat dichterbij proberen te komen.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"200\">",
             "purpose": "commenting",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
             "created": "2023-08-29T13:47:07.409Z",
-            "modified": "2023-08-29T13:48:05.010Z"
+            "modified": "2023-08-29T13:48:35.554Z"
         }
     ],
     "target": {
