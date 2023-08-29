@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>Ik heb gehoord dat hier zoveel lekker eten is.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">\n<small>Ja, maar dat is boven op zolder. Ik zal het tonen, maar pas op voor Moeder Overste<small>\nsrc=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n<small>Moeder wie?<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">\n",
-            "purpose": "commenting",
+            "created": "2023-08-29T14:31:48.829Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-29T14:31:48.829Z",
-            "modified": "2023-08-29T14:33:03.484Z"
+            "modified": "2023-08-29T14:36:36.271Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>Ik heb gehoord dat hier zoveel lekker eten is.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">\n<small>Ja, maar dat is boven op zolder. Ik zal het tonen, maar pas op voor Moeder Overste<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Mouse_sideways_schematic.svg/320px-Mouse_sideways_schematic.svg.png\" width=\"50\">\n<small>Moeder wie?<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">\n"
         }
     ],
+    "id": "3eb2e190-6029-4fd6-b2a6-3ecc8d2f57fe.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=5490.5263671875,5941.80712890625,977.40771484375,689.212890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=5490.5263671875,5941.80712890625,977.40771484375,689.212890625"
+        },
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3eb2e190-6029-4fd6-b2a6-3ecc8d2f57fe.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
