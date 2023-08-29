@@ -11,53 +11,53 @@ order: 5
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-08-29T14:26:40.025Z",
+            "modified": "2023-08-29T14:29:00.760Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Oh nee, die had ik helemaal niet gezien!<small><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">"
+            "value": "<small>Oh nee, die had ik helemaal niet gezien!<small><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">"
         },
         {
-            "type": "TextualBody",
-            "value": "Slimmerik, wat doe je hier in de ziekenzaal? Zie je niet dat het hier veel te druk is voor jou?<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
-            "purpose": "commenting",
+            "created": "2023-08-29T14:24:48.856Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-29T14:24:48.856Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Slimmerik, wat doe je hier in de ziekenzaal? Zie je niet dat het hier veel te druk is voor jou?<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
         },
         {
-            "type": "TextualBody",
-            "value": "<small>Ik heb gehoord dat hier zoveel lekker eten is.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">",
-            "purpose": "replying",
-            "creator": {
-                "id": "ReinDebrulle",
-                "name": "ReinDebrulle"
-            },
             "created": "2023-08-29T14:25:17.670Z",
-            "modified": "2023-08-29T14:25:30.484Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "<small>Ja, maar dat is boven op zolder. Ik zal het tonen, maar pas op voor Moeder Overste<small>\nsrc=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
-            "purpose": "replying",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
+            "modified": "2023-08-29T14:25:30.484Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "<small>Ik heb gehoord dat hier zoveel lekker eten is.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">"
+        },
+        {
             "created": "2023-08-29T14:25:54.094Z",
-            "modified": "2023-08-29T14:26:04.230Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "<small>Moeder wie?<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">",
-            "purpose": "replying",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
+            "modified": "2023-08-29T14:26:04.230Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "<small>Ja, maar dat is boven op zolder. Ik zal het tonen, maar pas op voor Moeder Overste<small>\nsrc=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
+        },
+        {
             "created": "2023-08-29T14:26:34.957Z",
-            "modified": "2023-08-29T14:26:55.749Z"
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "modified": "2023-08-29T14:26:55.749Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "<small>Moeder wie?<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"50\">"
         }
     ],
     "id": "fd89e3a5-d513-4d6b-97d5-f05f56540466.json",
