@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>Waar ben ik terechtgekomen? Hoe ga ik mijn weg hier vinden?\nWat is hier allemaal gaande: ik zie vrouwen in zwart-witte kleren, lange rijen met bedden, ik hoor geschreeuw, ik ruik allerlei vieze geuzen...\nMaar h\u00e9, wacht! Dat ruikt w\u00e9l lekker?!<small>",
-            "purpose": "commenting",
+            "created": "2023-08-29T13:29:53.890Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-29T13:29:53.890Z",
-            "modified": "2023-08-29T13:32:18.119Z"
+            "modified": "2023-08-29T13:41:26.019Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>Waar ben ik terechtgekomen? Hoe ga ik mijn weg hier vinden?\nWat is hier allemaal gaande: ik zie vrouwen in zwart-witte kleren, lange rijen met bedden, ik hoor geschreeuw, ik ruik allerlei vieze geuzen...\nMaar h\u00e9, wacht! Dat ruikt w\u00e9l lekker?!<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"200\">"
         }
     ],
+    "id": "b4b2954d-7603-4397-9e70-7ab86c165e47.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1099.5830078125,1309.833251953125,9978.4619140625,5356.338623046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1099.5830078125,1309.833251953125,9978.4619140625,5356.338623046875"
+        },
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b4b2954d-7603-4397-9e70-7ab86c165e47.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
