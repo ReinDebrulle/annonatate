@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 15
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>Vanaf hier moeten we nog een kleine weg afleggen naar de zolder. Daar, we kruipen over de bedden naar de middengang.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
-            "purpose": "commenting",
+            "created": "2023-08-30T16:10:05.243Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-30T16:10:05.243Z",
-            "modified": "2023-08-30T16:12:08.765Z"
+            "modified": "2023-08-30T17:08:37.784Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>Vanaf hier moeten we nog een kleine weg afleggen naar de zolder. Maar daar lopen wat mensen in de weg. Daar, we kruipen over de bedden naar de middengang.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
         }
     ],
+    "id": "10d973a2-b5c2-4477-a952-c090eb8bb2f3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3425.679931640625,4086.8359375,1355.093994140625,744.5283203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3425.679931640625,4086.8359375,1355.093994140625,744.5283203125"
+        },
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "10d973a2-b5c2-4477-a952-c090eb8bb2f3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
