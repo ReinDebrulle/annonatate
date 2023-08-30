@@ -4,7 +4,19 @@ order: 13
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<small>Dat is de chirurgijn, hij heeft scherpe messen die gebruikt hij om bloed af te nemen.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\nIs hij dan een vampier?<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">\n<big>Maar nee, mensen geloven dat ze uit 4 lichaamssappen bestaan. Als er te veel of te weinig is van die sappen dan ben je ziek. Daarom nemen ze soms wat bloed af, om de sappen terug in evenwicht te brengen.<big>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-08-30T15:21:23.426Z",
+            "modified": "2023-08-30T15:22:45.596Z"
+        }
+    ],
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
