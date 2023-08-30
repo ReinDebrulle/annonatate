@@ -4,7 +4,19 @@ order: 15
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<small>Vanaf hier moeten we nog een kleine weg afleggen naar de zolder. Daar, we kruipen over de bedden naar de middengang.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-08-30T16:10:05.243Z",
+            "modified": "2023-08-30T16:12:08.765Z"
+        }
+    ],
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
