@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>Dat is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...\nEn ze vangen ook muizen!\nIk zal je de veilige weg naar de zolder tonen. Ik woon hier al langer.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
-            "purpose": "commenting",
+            "created": "2023-08-30T14:39:39.201Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-30T14:39:39.201Z",
-            "modified": "2023-08-30T14:43:13.801Z"
+            "modified": "2023-08-30T14:48:03.648Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>Dat is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...</small>\nEn ze vangen ook muizen!\n<small>Ik zal je de veilige weg naar de zolder tonen. Ik woon hier al langer.</small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
         }
     ],
+    "id": "95825d74-4e8b-4c6c-aa59-d57bff2587d0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=7297.53173828125,4966.41259765625,521.41943359375,1298.77392578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=7297.53173828125,4966.41259765625,521.41943359375,1298.77392578125"
+        },
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "95825d74-4e8b-4c6c-aa59-d57bff2587d0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
