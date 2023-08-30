@@ -4,7 +4,19 @@ order: 20
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<small>Natuurlijk! De zolder is echt prachtig. En helemaal vol met bergen van graan, kruiken met noten, zaden en peulvruchten, rekken vol met kaas en manden vol met fruit.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-08-30T16:47:06.191Z",
+            "modified": "2023-08-30T16:49:46.138Z"
+        }
+    ],
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
