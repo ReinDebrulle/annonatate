@@ -24,7 +24,7 @@ order: 17
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=5118.31494140625,4304.9306640625,545.40185546875,309.15576171875"
+            "value": "xywh=4943,4299.91748046875,717.59423828125,426.58984375"
         },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
