@@ -1,0 +1,23 @@
+---
+canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
+order: 12
+---
+{
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2763.185791015625,5089.744140625,937.506591796875,1230.7802734375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "db494bae-a588-4556-b61d-2b7d6a6d2ee8.json",
+    "motivation": "commenting"
+}
