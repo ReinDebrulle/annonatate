@@ -1,0 +1,31 @@
+---
+canvas: "https://reindebrulle.github.io/annonatate/images/JohnLow.png"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Army Uniform",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-08-30T08:46:16.369Z",
+            "modified": "2023-08-30T08:46:19.707Z"
+        }
+    ],
+    "target": {
+        "source": "https://reindebrulle.github.io/annonatate/images/JohnLow.png",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=11.998438835144043,529.0499877929688,668.3306016921997,303.52752685546875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "57fe4ab0-6fd4-4b00-8bd3-260e4715e295.json",
+    "motivation": "commenting"
+}
