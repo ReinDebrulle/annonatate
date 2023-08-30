@@ -20,16 +20,16 @@ order: 9
     "id": "da460d89-5d03-4471-8bfe-d594a3e3fc45.json",
     "motivation": "commenting",
     "target": {
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4125.37890625,4557.52685546875,600.453125,356.505859375"
+        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=4366.84765625,4557.52685546875,358.984375,396.5732421875"
-        },
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
+        }
     },
     "type": "Annotation"
 }
