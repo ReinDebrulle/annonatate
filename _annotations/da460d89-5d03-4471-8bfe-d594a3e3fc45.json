@@ -4,7 +4,19 @@ order: 9
 ---
 {
     "type": "Annotation",
-    "body": [],
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<small>Dat is de arts, hij voelt de pols van de zieke om na te kijken hoe ziek die is. Ze doen dat ook door te kijken naar de kleur van de urine te kijken, er aan te ruiken of er zelfs van te proeven.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\nBah!!! En wat gebeurt er dan?<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">\n<big>Hij schrijft voor de zusters op welke kruiden ze op welke dag aan de pati\u00ebnt moeten geven en welk eten ze hem moeten geven<big>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-08-30T14:55:41.767Z",
+            "modified": "2023-08-30T14:57:26.232Z"
+        }
+    ],
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
