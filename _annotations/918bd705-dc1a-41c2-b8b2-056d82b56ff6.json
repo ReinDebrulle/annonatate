@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 17
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>We kruipen onder dat gordijn.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\nZitten we hier wel goed? Dit gordijn heeft benen?!\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">",
-            "purpose": "commenting",
+            "created": "2023-08-30T16:13:47.828Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-30T16:13:47.828Z",
-            "modified": "2023-08-30T16:15:16.834Z"
+            "modified": "2023-08-30T16:15:16.834Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>We kruipen onder dat gordijn.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\nZitten we hier wel goed? Dit gordijn heeft benen?!\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">"
         }
     ],
+    "id": "918bd705-dc1a-41c2-b8b2-056d82b56ff6.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=5081.97607421875,4277.96044921875,623.10546875,359.888671875"
+            "value": "xywh=5185.5771484375,4277.96044921875,519.50439453125,302.25146484375"
         },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "918bd705-dc1a-41c2-b8b2-056d82b56ff6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
