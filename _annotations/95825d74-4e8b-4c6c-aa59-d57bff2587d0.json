@@ -1,0 +1,35 @@
+---
+canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<small>Dat is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...\nEn ze vangen ook muizen!\nIk zal je de veilige weg naar de zolder tonen. Ik woon hier al langer.<small>\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-08-30T14:39:39.201Z",
+            "modified": "2023-08-30T14:42:37.769Z"
+        }
+    ],
+    "target": {
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=7297.53173828125,4966.41259765625,521.41943359375,1298.77392578125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "95825d74-4e8b-4c6c-aa59-d57bff2587d0.json",
+    "motivation": "commenting"
+}
