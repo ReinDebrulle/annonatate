@@ -3,33 +3,33 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 16
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>O NEE!! De dienstmeid heeft ons gezien. LOPEN!!<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
-            "purpose": "commenting",
+            "created": "2023-08-30T16:12:24.394Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-30T16:12:24.394Z",
-            "modified": "2023-08-30T16:12:43.047Z"
+            "modified": "2023-08-30T17:09:38.371Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>O NEE!! De dienstmeid en de pati\u00ebnten hebben ons gezien. LOPEN!!<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
         }
     ],
+    "id": "38d6d24b-53db-49ac-8746-fc4ad4845e7b.json",
+    "motivation": "commenting",
     "target": {
         "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=5673.70751953125,4478.09912109375,454.68212890625,708.091796875"
+            "value": "xywh=5673.70751953125,4478.09912109375,927.955078125,737.056640625"
         },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "38d6d24b-53db-49ac-8746-fc4ad4845e7b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
