@@ -7,14 +7,14 @@ order: 7
     "body": [
         {
             "type": "TextualBody",
-            "value": "<small>Dat is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...\nEn ze vangen ook muizen!\nIk zal je de veilige weg naar de zolder tonen. Ik woon hier al langer.<small>\n",
+            "value": "<small>Dat is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...\nEn ze vangen ook muizen!\nIk zal je de veilige weg naar de zolder tonen. Ik woon hier al langer.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
             "purpose": "commenting",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
             "created": "2023-08-30T14:39:39.201Z",
-            "modified": "2023-08-30T14:42:37.769Z"
+            "modified": "2023-08-30T14:43:13.801Z"
         }
     ],
     "target": {
