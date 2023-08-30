@@ -11,25 +11,25 @@ order: 9
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-08-30T15:05:33.671Z",
+            "modified": "2023-08-30T15:10:58.376Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Dat is de arts, hij voelt de pols van de zieke om na te kijken hoe ziek die is. Ze doen dat ook door te kijken naar de kleur van de urine, er aan te ruiken of er zelfs van te proeven.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n<big>Bah!!! En wat gebeurt er dan?<big><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">\n<big>Hij schrijft voor de zusters op welke kruiden ze op welke dag aan de pati\u00ebnt moeten geven en welk eten ze hem moeten geven<big>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n"
+            "value": "<small>Dat is de arts, hij voelt de pols van de zieke om na te kijken hoe ziek die is. Ze doen dat ook door te kijken naar de kleur van de urine, er aan te ruiken of er zelfs van te proeven.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n<big>Bah!!! En wat gebeurt er dan?<big><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">\nHij schrijft voor de zusters op welke kruiden ze op welke dag aan de pati\u00ebnt moeten geven en welk eten ze hem moeten geven\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n"
         }
     ],
     "id": "da460d89-5d03-4471-8bfe-d594a3e3fc45.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4125.37890625,4557.52685546875,600.453125,356.505859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4125.37890625,4557.52685546875,600.453125,356.505859375"
+        },
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
     },
     "type": "Annotation"
 }
