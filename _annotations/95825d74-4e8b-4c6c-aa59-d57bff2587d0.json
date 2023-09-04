@@ -11,25 +11,25 @@ order: 7
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-08-30T14:48:03.648Z",
+            "modified": "2023-09-04T14:54:07.158Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Dat is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...</small>\nEn ze vangen ook muizen!\n<small>Ik zal je de veilige weg naar de zolder tonen. Ik woon hier al langer.</small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
+            "value": "<small>Zij daar is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...</small>\nEn ze vangen ook muizen!\n<small>Ik zal je de veilige weg naar de zolder tonen. Ik ben hier thuis.</small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
         }
     ],
     "id": "95825d74-4e8b-4c6c-aa59-d57bff2587d0.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=7317.4150390625,4994.517578125,514.02734375,861.37646484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=7317.4150390625,4994.517578125,514.02734375,861.37646484375"
+        },
+        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
     },
     "type": "Annotation"
 }
