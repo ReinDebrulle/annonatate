@@ -1,4 +1,12 @@
 images:
+- added: '2023-09-18 10:05:04.298032'
+  iiif: true
+  thumbnail: https://dam.museabrugge.be/iiif/2/public%2F513.tif/full/full/0/default.jpg
+  title:
+  - none:
+    - Zicht  in de oude ziekenzalen
+  url: https://raw.githubusercontent.com/ReinDebrulle/IIIFManifests/main/Sint-JanshospitaalBeerblock.json
+  user: ReinDebrulle
 - added: '2023-09-18 09:51:18.795680'
   iiif: true
   thumbnail: https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F107.tif/full/full/0/default.jpg
