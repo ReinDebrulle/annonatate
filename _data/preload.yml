@@ -1,4 +1,14 @@
 images:
+- added: '2023-09-18 09:51:18.795680'
+  iiif: true
+  thumbnail: https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F107.tif/full/full/0/default.jpg
+  title:
+  - en:
+    - Letter of John Low to his sister Jeannie - 1916.11.20
+    nl:
+    - Brief van John Low aan zijn zus Jeannie - 20.11.1916
+  url: https://raw.githubusercontent.com/ReinDebrulle/IIIFManifests/main/20.11.1916.json
+  user: ReinDebrulle
 - added: '2023-08-29 13:15:11.090726'
   iiif: true
   thumbnail: ''
@@ -25,7 +35,6 @@ images:
   thumbnail: https://media.nga.gov/iiif/public/objects/1/0/6/3/8/2/106382-primary-0-nativeres.ptif/full/120,/0/default.jpg
   title: National Gallery of Art Collection Highlights
   url: https://media.nga.gov/public/manifests/nga_highlights.json
-manifests: []
 settings:
   tempuser: notenabled
   viewer: default
