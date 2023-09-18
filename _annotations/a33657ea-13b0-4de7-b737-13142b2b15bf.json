@@ -1,0 +1,31 @@
+---
+canvas: "https://dam.museabrugge.be/iiif/2/public%2F513.tif/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "<small>Hallo, ik ben muis.</small>",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-09-18T10:05:18.564Z",
+            "modified": "2023-09-18T10:05:37.937Z"
+        }
+    ],
+    "target": {
+        "source": "https://dam.museabrugge.be/iiif/2/public%2F513.tif/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=9175.35546875,4797.27978515625,1694.1787109375,1455.42578125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a33657ea-13b0-4de7-b737-13142b2b15bf.json",
+    "motivation": "commenting"
+}
