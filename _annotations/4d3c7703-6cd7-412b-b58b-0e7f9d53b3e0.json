@@ -1,0 +1,30 @@
+---
+canvas: "https://dam.museabrugge.be/iiif/2/public%2F513.tif/info.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Hoe ben ik hier terecht gekomen?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ReinDebrulle",
+                "name": "ReinDebrulle"
+            },
+            "created": "2023-09-18T10:05:55.196Z",
+            "modified": "2023-09-18T10:06:00.487Z"
+        }
+    ],
+    "target": {
+        "source": "https://dam.museabrugge.be/iiif/2/public%2F513.tif/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"7779.24169921875\" cy=\"5468.13037109375\" rx=\"1044.23779296875\" ry=\"901.39453125\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "4d3c7703-6cd7-412b-b58b-0e7f9d53b3e0.json",
+    "motivation": "commenting"
+}
