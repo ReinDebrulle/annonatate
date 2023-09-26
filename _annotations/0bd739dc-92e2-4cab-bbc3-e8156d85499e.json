@@ -3,33 +3,40 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 20
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>Natuurlijk! De zolder is echt prachtig. En helemaal vol met bergen van graan, kruiken met noten, zaden en peulvruchten, rekken vol met kaas en manden vol met fruit.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
-            "purpose": "commenting",
+            "created": "2023-08-30T16:47:06.191Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-30T16:47:06.191Z",
-            "modified": "2023-08-30T16:49:46.138Z"
+            "modified": "2023-09-26T10:56:32.763Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>Natuurlijk! De zolder is echt prachtig. En helemaal vol met bergen van graan, kruiken met noten, zaden en peulvruchten, rekken vol met kaas en manden vol met fruit.<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">"
         }
     ],
+    "id": "0bd739dc-92e2-4cab-bbc3-e8156d85499e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4246.6923828125,1886.9312744140625,1755.22509765625,806.8009033203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4246.6923828125,1886.9312744140625,1755.22509765625,806.8009033203125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0bd739dc-92e2-4cab-bbc3-e8156d85499e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
