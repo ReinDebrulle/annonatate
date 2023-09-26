@@ -3,33 +3,40 @@ canvas: "https://dam.museabrugge.be/iiif/3/513/canvas/1"
 order: 18
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "<small>We zitten onder de rok van de bisschop! Snel weg hier, want Moeder Overste is onderweg om ons te verjagen.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">",
-            "purpose": "commenting",
+            "created": "2023-08-30T16:16:44.753Z",
             "creator": {
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "created": "2023-08-30T16:16:44.753Z",
-            "modified": "2023-08-30T16:18:41.215Z"
+            "modified": "2023-09-26T12:20:48.081Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "<small>We zitten onder de rok van de bisschop! Snel weg hier, want Moeder Overste is onderweg om ons te verjagen.<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">"
         }
     ],
+    "id": "70cc77e4-9320-47d5-b8b7-8023421237f8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4940.23095703125,4049.14306640625,839.19970703125,547.70703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4940.23095703125,4049.14306640625,839.19970703125,547.70703125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "70cc77e4-9320-47d5-b8b7-8023421237f8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
