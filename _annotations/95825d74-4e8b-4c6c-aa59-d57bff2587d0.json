@@ -11,10 +11,10 @@ order: 7
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-09-04T14:54:07.158Z",
+            "modified": "2023-09-26T11:02:58.429Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Zij daar is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...</small>\nEn ze vangen ook muizen!\n<small>Ik zal je de veilige weg naar de zolder tonen. Ik ben hier thuis.</small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
+            "value": "<small>Zij daar is Moeder Overste. Zij zwaait hier de plak. \nZe is een van de zusters die hier in de ziekenzaal werken. Ze verzorgen de zieke mensen: ze geven hen eten, wassen hen, bereiden hun kruidendrankjes ...</small>\nEn ze vangen ook muizen!\n<small>Ik zal je de veilige weg naar de zolder tonen. Ik ben hier thuis.</small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">"
         }
     ],
     "id": "95825d74-4e8b-4c6c-aa59-d57bff2587d0.json",
@@ -29,7 +29,14 @@ order: 7
             "type": "FragmentSelector",
             "value": "xywh=7317.4150390625,4994.517578125,514.02734375,861.37646484375"
         },
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
+        "source": {
+            "partOf": {
+                "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
