@@ -11,24 +11,31 @@ order: 15
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-08-30T17:08:37.784Z",
+            "modified": "2023-09-26T10:55:58.011Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Vanaf hier moeten we nog een kleine weg afleggen naar de zolder. Maar daar lopen wat mensen in de weg. Daar, we kruipen over de bedden naar de middengang.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">"
+            "value": "<small>Vanaf hier moeten we nog een kleine weg afleggen naar de zolder. Maar daar lopen wat mensen in de weg. Daar, we kruipen over de bedden naar de middengang.<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">"
         }
     ],
     "id": "10d973a2-b5c2-4477-a952-c090eb8bb2f3.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2679.163330078125,3884.745361328125,2101.610595703125,946.618896484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2679.163330078125,3884.745361328125,2101.610595703125,946.618896484375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
