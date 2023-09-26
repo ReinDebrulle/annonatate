@@ -11,10 +11,10 @@ order: 9
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-09-04T14:59:19.356Z",
+            "modified": "2023-09-26T10:57:12.859Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Dat is de arts, hij voelt de pols van de zieke om na te kijken hoe ziek die is. Ze doen dat ook door te kijken naar de kleur van de urine, er aan te ruiken of er zelfs van te proeven.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n<big>Bah!!! En wat gebeurt er dan?<big><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">\n<small>De arts schrijft voor de zusters op welke kruiden ze aan de pati\u00ebnten moeten geven en welk eten de pati\u00ebnten mogen eten.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"50\">\n"
+            "value": "<small>Dat is de arts, hij voelt de pols van de zieke om na te kijken hoe ziek die is. Ze doen dat ook door te kijken naar de kleur van de urine, er aan te ruiken of er zelfs van te proeven.<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">\n<big>Bah!!! En wat gebeurt er dan?<big><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b8/201108_mouse.png\" width=\"20\">\n<small>De arts schrijft voor de zusters op welke kruiden ze aan de pati\u00ebnten moeten geven en welk eten de pati\u00ebnten mogen eten.<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">\n"
         }
     ],
     "id": "da460d89-5d03-4471-8bfe-d594a3e3fc45.json",
@@ -29,7 +29,14 @@ order: 9
             "type": "FragmentSelector",
             "value": "xywh=4032.293212890625,4566.89501953125,768.485595703125,403.10400390625"
         },
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
+        "source": {
+            "partOf": {
+                "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
