@@ -11,10 +11,10 @@ order: 2
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-09-15T16:25:32.794Z",
+            "modified": "2023-09-26T12:14:30.229Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Waar ben ik terechtgekomen? Hoe ga ik mijn weg hier vinden?\nWat is hier allemaal gaande: ik zie vrouwen in zwart-witte kleren, lange rijen met bedden, ik hoor geschreeuw, ik ruik allerlei vieze geuren...\nMaar h\u00e9, wacht! Dat ruikt w\u00e9l lekker?!<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F174.tif/full/full/0/default.jpg\" width=\"200\">"
+            "value": "<small>Waar ben ik terechtgekomen? Hoe ga ik mijn weg hier vinden?\nWat is hier allemaal gaande: ik zie vrouwen in zwart-witte kleren, lange rijen met bedden, ik hoor geschreeuw, ik ruik allerlei vieze geuren...\nMaar h\u00e9, wacht! Dat ruikt w\u00e9l lekker?!<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F210.tif/full/full/0/default.jpg\" width=\"200\">"
         }
     ],
     "id": "b4b2954d-7603-4397-9e70-7ab86c165e47.json",
@@ -29,7 +29,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=1099.5830078125,1309.833251953125,9978.4619140625,5356.338623046875"
         },
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1"
+        "source": {
+            "partOf": {
+                "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
