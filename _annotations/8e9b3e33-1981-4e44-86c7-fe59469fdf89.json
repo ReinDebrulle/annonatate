@@ -11,10 +11,10 @@ order: 14
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-09-26T12:18:30.208Z",
+            "modified": "2023-09-26T12:24:28.290Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Hoe weet jij dat toch allemaal?<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F210.tif/full/full/0/default.jpg\" width=\"20\">\nDat heb ik ooit een dokter horen vertellen. We zijn er, op drie springen we van de kar. 1...2...3...SPRING!\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">"
+            "value": "<small>Hoe weet jij dat toch allemaal?<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F210.tif/full/full/0/default.jpg\" width=\"20\">\n<big>Dat heb ik ooit een dokter horen vertellen. We zijn er, op drie springen we van de kar. 1...2...3...SPRING!</big>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F209.tif/full/full/0/default.jpg\" width=\"50\">"
         }
     ],
     "id": "8e9b3e33-1981-4e44-86c7-fe59469fdf89.json",
