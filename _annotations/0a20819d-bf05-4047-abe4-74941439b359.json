@@ -11,24 +11,31 @@ order: 4
                 "id": "ReinDebrulle",
                 "name": "ReinDebrulle"
             },
-            "modified": "2023-08-29T13:52:09.599Z",
+            "modified": "2023-09-26T10:47:55.338Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "<small>Pssst, pas op!! De kat zit op de loer.<small>\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Mouse_sideways_schematic.svg\" width=\"200\">"
+            "value": "<small>Pssst, pas op!! De kat zit op de loer.<small>\n<img src=\"https://imagehub.vlaamsekunstcollectie.be/iiif/2/public%2F208.tif/full/full/0/default.jpg\" width=\"200\">"
         }
     ],
     "id": "0a20819d-bf05-4047-abe4-74941439b359.json",
     "motivation": "commenting",
     "target": {
-        "source": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=5608.1494140625,5014.15673828125,2869.02734375,1600.62744140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=5608.1494140625,5014.15673828125,2869.02734375,1600.62744140625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://dam.museabrugge.be/iiif/3/513/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dam.museabrugge.be/iiif/3/513/canvas/1",
+            "type": "Canvas"
         }
     },
     "type": "Annotation"
