@@ -1,4 +1,14 @@
 images:
+- added: '2024-04-09 14:00:23.262461'
+  iiif: true
+  thumbnail: https://iiif.kmska.be/c/iiif/2/public@8106.tif/full/120,/0/default.jpg
+  title:
+  - '@language': en
+    '@value': Proverbs
+  - '@language': nl
+    '@value': Spreekwoorden
+  url: https://iiif.kmska.be/iiif/2/8106/manifest.json
+  user: ReinDebrulle
 - added: '2023-09-18 10:05:04.298032'
   iiif: true
   thumbnail: https://dam.museabrugge.be/iiif/2/public%2F513.tif/full/full/0/default.jpg
